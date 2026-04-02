@@ -1,4 +1,4 @@
-# Automated Exchange Rate Pipeline (SQL + Python)
+# Automated Exchange Rate Pipeline
 
 ## 📌 Overview
 
@@ -24,7 +24,7 @@ The solution demonstrates data extraction, transformation, reporting, and schedu
 ## 🧰 Tech Stack
 
 * Python (requests, pandas)
-* SQL Server (T-SQL)
+* SQL Server (MS Server)
 * Windows Task Scheduler
 
 ---
@@ -32,21 +32,22 @@ The solution demonstrates data extraction, transformation, reporting, and schedu
 ## 📂 Project Structure
 
 ```
-Exchange_Rate_Assignment/
+
+Unisource-data-automation-assignment/
 │
 ├── SQL/
-│   └── northwind_analysis.sql
+│   └── Northwind_analysis.sql
 │
 ├── Python/
-│   └── exchange_rates.py
+│   └── script.py
 │
 ├── Output/
 │   ├── exchange_rates_YYYY-MM-DD.csv
 │   └── exchange_rates.log
 │
 ├── Screenshots/
-│   ├── task_scheduler_trigger.png
-│   └── task_scheduler_action.png
+│   ├── SS(7).png
+│   └── SS(8).png
 │
 └── README.md
 ```
@@ -64,7 +65,7 @@ pip install requests pandas
 ### 2. Run Script
 
 ```
-python exchange_rates.py
+python script.py
 ```
 
 ### 3. Output
@@ -113,6 +114,3 @@ This project was completed as part of a technical assignment to demonstrate prac
 
 ---
 
-## 👤 Author
-
-Gaurav
