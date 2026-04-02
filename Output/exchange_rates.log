@@ -1,0 +1,2 @@
+2026-04-02 12:23:35,055 - INFO - Successfully generated report: exchange_rates_2026-04-02.csv
+2026-04-02 12:23:35,055 - INFO - Currencies processed: ['INR', 'AED', 'USD', 'EUR', 'GBP', 'BRL', 'MXN']
